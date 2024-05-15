@@ -1,0 +1,4 @@
+logo link - https://zerodha.com/static/images/logo.svg
+main image - https://zerodha.com/static/images/landing.png
+award image - https://zerodha.com/static/images/largest-broker.svg
+brand image  - https://zerodha.com/static/images/press-logos.png

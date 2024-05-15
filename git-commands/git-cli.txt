@@ -1,0 +1,11 @@
+Upload directory/folder on github using cli mode-
+git init 
+git add .
+
+update files on github;
+git add .
+git commit -m "update-name"
+git push origin main
+
+delete .git folder (remove a file from git updates)-
+rm -rf .git

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <style>
+      h1 {
+        /* animation-name: animate__bounce; */
+        animation-name: slidein;
+        animate-duration: 0.2s;
+        animation: 10s infinite;
+        transition: all ease-in 0.5s;
+      }
+      h1:hover {
+        /* background: #000; */
+        background: conic-gradient(#4dabf7, #38d9a9, #ffe066, #e8590c);
+        color: white;
+        scale: 1.01;
+        margin-top: 12px;
+        padding: 34px;
+      }
+
+      div {
+        height: 100px;
+        width: 100px;
+        background: #000;
+        border-radius: 50%;
+        animate-duration: 0.2s;
+      }
+      h3 {
+        background: #000 !important;
+      }
+      #head3 {
+        background: red;
+      }
+      .head3 {
+        background: green;
+      }
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="">This is h1</h1>
+
+    <div class="animate__bounce"></div>
+    <h3 class="head3" id="head3">this is keyframs</h3>
+  </body>
+</html>

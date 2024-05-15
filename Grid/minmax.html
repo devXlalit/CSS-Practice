@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent {
+        display: grid;
+        /* width: 10vw; */
+        grid-template-columns: 2fr 2 span;
+        /* grid-auto-flow: column; */
+        /* grid-auto-flow: row; */
+      }
+      .child1 {
+        background: blue;
+        height: 100px;
+        width: 100px;
+      }
+      .child2 {
+        background: red;
+        height: 100px;
+        width: 100px;
+      }
+      .child3 {
+        background: green;
+        height: 100px;
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child1"></div>
+      <div class="child2"></div>
+      <div class="child3"></div>
+    </div>
+  </body>
+</html>

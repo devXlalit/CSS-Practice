@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+}
+body {
+  /* padding: 25px 100px; */
+}
+
+nav {
+  padding: 25px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  background: white;
+  /* height: 100px; */
+  width: 90%;
+  position: fixed;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+.nav-innerlist {
+  list-style: none;
+  color: #495057;
+  font-size: 14px;
+}
+
+.main > img {
+  height: 22vw;
+  margin-top: 40px;
+  margin-left: 25%;
+}
+
+.main h2 {
+  padding-top: 20px;
+  font-size: 42px;
+  /* margin-top: 20px; */
+  text-align: center;
+  color: #343a40;
+  font-weight: 500;
+}
+
+.main p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 70px;
+  color: #343a40;
+}
+
+.main .btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.main .btn button {
+  padding: 10px 40px;
+  font-size: 20px;
+  border: none;
+  background-color: #228be6;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+}
+
+.award-section {
+  display: flex;
+  padding: 25px 100px;
+  gap: 80px;
+}
+
+.inner-award h3 {
+  font-size: 30px;
+  line-height: 100px;
+}
+
+.inner-award p {
+}
+
+.inner-award .inner-list {
+  padding-top: 60px;
+  display: flex;
+  gap: 30px;
+}
+.inner-award .inner-list ul li {
+  padding: 8px;
+}
+.inner-award img {
+  margin-top: 30px;
+}
+.footer-first-div {
+  width: 20vw;
+}
+.footer-first-div p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer {
+  display: flex;
+  gap: 60px;
+  padding: 25px 100px;
+  flex-wrap: wrap;
+}
+
+h5 {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.footer-second-div {
+  width: 10vw;
+}
+.footer-second-div ul li {
+  list-style: none;
+  padding-top: 8px;
+}
